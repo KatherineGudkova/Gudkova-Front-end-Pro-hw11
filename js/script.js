@@ -3,7 +3,7 @@ let year = now.getFullYear();
 
 const dateOfBirth = Number(prompt(`Enter year of birth:`));
 let age = null;
-let stringAge
+let stringAge = ``;
 if (dateOfBirth == 0) {
     alert(`It's a pity that you didn't want to enter your age.`);
 }
